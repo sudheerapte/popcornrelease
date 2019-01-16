@@ -28,6 +28,6 @@ named "options.json". The server directory has an example file to copy.
 Create an entry for your machine and its directory path.
 
 The machine directory should contain at least a file named
-"frags.html", containing <div> elements and other HTML content and
+`frags.html`, containing `<div>` elements and other HTML content and
 assets.
 

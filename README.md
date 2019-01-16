@@ -17,17 +17,22 @@ node ./launch.js
 This should start a web server listening on port 8000. You can connect
 to a demo "machine" by typing in your browser:
 
-http://localhost:8000/demo
+http://localhost:8000/t2
 
 It should show the word "t2" in the title bar, and a blank page.
 
 4. Tell popcorn where to find your machine:
 
-Create a directory ".popcorn" in your home directory, and in it a file
-named "options.json". The server directory has an example file to copy.
-Create an entry for your machine and its directory path.
-
-The machine directory should contain at least a file named
+Your machine directory should contain at least a file named
 `frags.html`, containing `<div>` elements and other HTML content and
 assets.
+
+Create a directory `.popcorn` in your home directory, and in it a file
+named `options.json`. The server directory has an example file to
+copy.  Create an entry for your machine and its directory path in this
+file. When popcorn is launched, it will read this options file and
+will be able to locate your machine. To access your machine from the
+browser, provide the name of your machine as the "path" portion of
+your URL, like the word "t2" above.
+
 

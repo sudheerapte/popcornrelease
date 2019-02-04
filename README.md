@@ -1,7 +1,7 @@
 # popcornrelease
 releases of popcorn
 
-Latest release = `popcorn-0.0.5.tar.gz`
+Latest release = `popcorn-0.0.6.tar.gz`
 
 # Installing popcorn
 

@@ -5,8 +5,10 @@ Latest release = `popcorn-0.0.6.tar.gz`
 
 # Installing popcorn on Linux
 
-Popcorn itself is just a directory you can place anywhere on your
-machine. The directory contains all the code it needs except for
+(What is Popcorn? See https://github.com/sudheerapte/popcornserver/tree/dev/doc)
+
+Installing Popcorn just creates a directory you can place anywhere on
+your machine. The directory contains all the code it needs except for
 NodeJS, and makes no references to any other files.  You can move the
 whole directory anywhere you want and launch Popcorn.
 

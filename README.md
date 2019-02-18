@@ -1,11 +1,12 @@
 # popcornrelease
 releases of popcorn
 
-Latest release = `popcorn-0.0.6.tar.gz`
+Latest release = `popcorn-0.0.8.tar.gz`
 
 # Installing popcorn on Linux
 
-(What is Popcorn? See https://github.com/sudheerapte/popcornserver/tree/dev/doc)
+(What is Popcorn? See the Popcorn manual:
+https://github.com/sudheerapte/popcornserver/tree/dev/doc)
 
 Installing Popcorn just creates a directory you can place anywhere on
 your machine. The directory contains all the code it needs except for
@@ -38,8 +39,10 @@ You can connect to a demo "machine" by typing in your browser:
 http://localhost:8000/demo
 ```
 
-It should show a simple model updating every two seconds. If so, then
-you have installed Popcorn correctly.
+It should show a simple app updating its page every ten seconds. The
+page shows a button with which you can immediately change the state, too.
+
+If you can see this app, then you have installed Popcorn correctly.
 
 5. To start your own Popcorn app, tell popcorn where to find your
 machine directory. In `~/.popcorn/options.json`, create an entry for
@@ -48,7 +51,12 @@ machine (all lowercase letters) and make sure that the machine
 directory exists and has at least a file called `frags.html`.
 
 When popcorn is launched, it will read this options file and will be
-able to locate your machine.
+able to locate your machine assets and show the initial state of your
+machine on a web page.
 
-To access your machine from the browser, provide the name of your
+To access your app page from the browser, provide the name of your
 machine as the "path" portion of your URL, like the word "demo" above.
+
+To dynamically modify your app state, you will have to write a program
+following the instructions in the Popcorn manual.
+(https://github.com/sudheerapte/popcornserver/tree/dev/doc)

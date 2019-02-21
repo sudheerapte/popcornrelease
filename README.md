@@ -1,7 +1,7 @@
 # popcornrelease
 releases of popcorn
 
-Latest release = `popcorn-0.0.8.tar.gz`
+Latest release = `popcorn-0.0.9.tar.gz`
 
 # Installing popcorn on Linux
 

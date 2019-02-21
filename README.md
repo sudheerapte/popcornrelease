@@ -13,9 +13,9 @@ your machine. The directory contains all the code it needs except for
 NodeJS, and makes no references to any other files.  You can move the
 whole directory anywhere you want and launch Popcorn.
 
-1. Make sure you have NodeJS 8.10 LTS or newer on your PATH, i.e., you
-can run "node -v" directly from the command line and it prints a
-version number like "v8.10.0".
+1. Make sure you have NodeJS v.10 LTS or newer on your PATH, i.e., you
+can run `node -v` directly from the command line and it prints a
+version number like `v10.15.1`.
 
 2. Untar the file `popcorn-`x.y.z`.tar.gz` in some directory and
 `cd` into it.
@@ -59,4 +59,11 @@ machine as the "path" portion of your URL, like the word "demo" above.
 
 To dynamically modify your app state, you will have to write a program
 following the instructions in the Popcorn manual.
-(https://github.com/sudheerapte/popcornserver/tree/dev/doc)
+
+## Documentation
+
+* Popcorn manual: https://github.com/sudheerapte/popcornserver/tree/dev/doc
+
+* Popcorn roadmap: https://github.com/sudheerapte/popcornserver/tree/dev/doc (see section Roadmap)
+
+

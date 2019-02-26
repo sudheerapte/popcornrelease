@@ -5,13 +5,16 @@ Latest release = `popcorn-0.1.1.tar.gz`
 
 # Installing popcorn on Linux
 
-(What is Popcorn? See the Popcorn manual:
-https://github.com/sudheerapte/popcornserver/tree/dev/doc)
 
 Installing Popcorn just creates a directory you can place anywhere on
 your machine. The directory contains all the code it needs except for
 NodeJS, and makes no references to any other files.  You can move the
 whole directory anywhere you want and launch Popcorn.
+
+* What is Popcorn? See the Popcorn manual: https://github.com/sudheerapte/popcornserver/tree/dev/doc
+
+
+## Procedure for installation
 
 1. Make sure you have NodeJS v.10 LTS or newer on your PATH, i.e., you
 can run `node -v` directly from the command line and it prints a
@@ -44,18 +47,25 @@ page shows a button with which you can immediately change the state, too.
 
 If you can see this app, then you have installed Popcorn correctly.
 
-5. To start your own Popcorn app, tell popcorn where to find your
+## Starting a Popcorn app
+
+To start your own Popcorn app, tell popcorn where to find your
 machine directory. In `~/.popcorn/options.json`, create an entry for
 your machine name and its directory path.  Make up a name for your
-machine (all lowercase letters) and make sure that the machine
-directory exists and has at least a file called `frags.html`.
+machine (all lowercase letters), say `demo`, and make sure that
+the machine directory exists and has at least a file called
+`demo-index.html` where `demo` is your machine name.
 
-When popcorn is launched, it will read this options file and will be
+When Popcorn is launched, it will read this options file and will be
 able to locate your machine assets and show the initial state of your
 machine on a web page.
 
 To access your app page from the browser, provide the name of your
-machine as the "path" portion of your URL, like the word "demo" above.
+machine as the "path" portion of your URL:
+
+```
+http://localhost:8000/demo
+```
 
 To dynamically modify your app state, you will have to write a program
 following the instructions in the Popcorn manual.
@@ -66,4 +76,5 @@ following the instructions in the Popcorn manual.
 
 * Popcorn roadmap: https://github.com/sudheerapte/popcornserver/tree/dev/doc (see section Roadmap)
 
+* Popcorn sources: https://github.com/sudheerapte/popcornserver
 
